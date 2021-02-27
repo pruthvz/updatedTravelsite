@@ -1,0 +1,73 @@
+@media screen and (max-width: 673px) {
+  .topnav {
+    display: none !important;
+  }
+  .navbar-nav .nav-item {
+    padding: 20px;
+    font-weight: 600;
+    padding-left: 0px !important;
+  }
+  .text-offer {
+    position: absolute;
+    bottom: 220px !important;
+    left: 10px;
+    text-align: left !important;
+    font-size: 15px !important;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: bold !important; */
+  }
+
+  /* HEADER */
+  .coverInfo h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+  .coverInfo h4 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+  }
+  .coverInfo p {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+
+  /* DESTINATION SECTION */
+  .sectionInfo h1 {
+    font-size: 45px;
+  }
+
+  /* MORE CITIES */
+  .moreCity h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 71px;
+  }
+
+  .moreCity h4 {
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    line-height: 59px;
+  }
+
+  .moreCity p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+  .imgCover .imgOnImg {
+    height: 200px !important;
+  }
+  .moreCity {
+    padding-top: 60px !important;
+  }
+  .imgCover {
+    height: 460px !important;
+  }
+  .services {
+    margin: 0 auto;
+  }
+
+  /* LETS FIX SERVICES */
+}
