@@ -503,7 +503,7 @@
 .testimonial {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -591,4 +591,25 @@
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
   background-image: none;
+}
+
+/* INFO */
+/* NEW PLANS TO MAKE */
+.customerInfo {
+  padding-top: 100px !important;
+}
+
+.customerInfo h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 71px;
+  color: white;
+}
+
+.customerInfo h4 {
+  font-family: "Pacifico", cursive;
+  font-size: 33px;
+  line-height: 59px;
+  color: #4db6ac;
 }
