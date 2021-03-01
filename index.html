@@ -48,6 +48,10 @@
       integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -410,8 +414,8 @@
       <div class="container text-center">
         <div class="d-flex justify-content-center align-items-top pb-5">
           <div class="planInfo text-white">
-            <h4 class="mb-1">Plan The</h4>
-            <h1 class="mb-3">Exquisite Holiday</h1>
+            <h4 class="mb-1">The Beauty Of</h4>
+            <h1 class="mb-3" style="font-size: 90px">India</h1>
             <p class="mb-3">
               Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
@@ -421,10 +425,10 @@
       </div>
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
+          <div class="col pb-3">
             <div class="card view">
               <img
-                src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+                src="https://globalgrasshopper.com/wp-content/uploads/2011/01/Taj-Mahal.jpg"
                 class="card-img-top"
                 alt="..."
               />
@@ -432,19 +436,210 @@
                 <div class="text-white text-center">
                   <div>
                     <span
-                      class="text-offer badge badge-danger rounded-pill font-weight-bold"
+                      class="india-offer badge badge-warning font-weight-bold"
                     >
-                      Special Offer
+                      50% Off
                     </span>
 
-                    <h2 class="india-text card-title">This is news title</h2>
-                    <p class="india-price card-text">£200</p>
+                    <h2 class="india-text card-title col-md-12 position_me">
+                      Taj Mahal
+                    </h2>
+                    <p class="india-price card-text col-md-12 positionPrice">
+                      £200
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="col pb-3">
+            <div class="card view">
+              <img
+                src="https://www.treebo.com/blog/wp-content/uploads/2018/07/Shimla-.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="mask rgba-stylish-light">
+                <div class="container text-white text-center">
+                  <div>
+                    <span
+                      class="india-offer badge badge-warning font-weight-bold"
+                    >
+                      Special Offer
+                    </span>
+
+                    <h2 class="india-text card-title col-md-12 position_me">
+                      Shimla
+                    </h2>
+
+                    <p class="india-price card-text col-md-12 positionShimla">
+                      £200
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col pb-3">
+            <div class="card view">
+              <img
+                src="https://www.treebo.com/blog/wp-content/uploads/2018/07/Mount-Abu.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="mask rgba-stylish-light">
+                <div class="text-white text-center">
+                  <div>
+                    <span
+                      class="india-offer badge badge-warning font-weight-bold"
+                    >
+                      Special Offer
+                    </span>
+
+                    <h2 class="india-text card-title col-md-12 position_me">
+                      Mount Abu
+                    </h2>
+                    <p class="india-price card-text col-md-12 positionPrice">
+                      £200
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col pb-3">
+            <div class="card view">
+              <img
+                src="https://globalgrasshopper.com/wp-content/uploads/2011/01/Goa-India.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="mask rgba-stylish-light">
+                <div class="text-white text-center">
+                  <div>
+                    <span
+                      class="india-offer badge badge-warning font-weight-bold"
+                    >
+                      50% Off
+                    </span>
+
+                    <!-- I LEFT AT POSITION THE TEXT AND LEAVING THE MEDIA QUERY OUT! -->
+                    <h2 class="india-text card-title col-md-12 position_me">
+                      Goa
+                    </h2>
+                    <p class="india-price card-text col-md-12 positionPrice">
+                      £200
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ALL THE CARDS END HERE -->
         </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img
+                src="./assets/images/quote.png"
+                class="quote"
+                alt=""
+                style="height: 40px"
+              />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  adipisci minus aliquid, neque animi explicabo recusandae
+                  aperiam maxime quibusdam atque, suscipit exercitationem
+                  placeat saepe quisquam. Atque earum blanditiis provident
+                  nihil.
+                </p>
+                <div class="details">
+                  <div class="imgBox">
+                    <img
+                      src="./assets/images/test.jpg"
+                      style="height: 15rem; overflow: hidden"
+                      alt=""
+                    />
+                  </div>
+                  <h3>Someone Famous <br /><span>Creative Designer</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img
+                src="./assets/images/quote.png"
+                class="quote"
+                alt=""
+                style="height: 40px"
+              />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  adipisci minus aliquid, neque animi explicabo recusandae
+                  aperiam maxime quibusdam atque, suscipit exercitationem
+                  placeat saepe quisquam. Atque earum blanditiis provident
+                  nihil.
+                </p>
+                <div class="details">
+                  <div class="imgBox">
+                    <img
+                      src="./assets/images/test.jpg"
+                      style="height: 15rem; overflow: hidden"
+                      alt=""
+                    />
+                  </div>
+                  <h3>Someone Famous <br /><span>Creative Designer</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+              <img
+                src="./assets/images/quote.png"
+                class="quote"
+                alt=""
+                style="height: 40px"
+              />
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  adipisci minus aliquid, neque animi explicabo recusandae
+                  aperiam maxime quibusdam atque, suscipit exercitationem
+                  placeat saepe quisquam. Atque earum blanditiis provident
+                  nihil.
+                </p>
+                <div class="details">
+                  <div class="imgBox">
+                    <img
+                      src="./assets/images/test.jpg"
+                      style="height: 15rem; overflow: hidden"
+                      alt=""
+                    />
+                  </div>
+                  <h3>Someone Famous <br /><span>Creative Designer</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
@@ -483,5 +678,24 @@
     ></script>
 
     <script src="./src/js/moveCards.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 2,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
   </body>
 </html>

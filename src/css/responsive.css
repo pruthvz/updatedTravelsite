@@ -69,5 +69,24 @@
     margin: 0 auto;
   }
 
-  /* LETS FIX SERVICES */
+  /* INDIA TRAVEL ONLY  */
+  .justIndia .india-text {
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 24px !important;
+    font-weight: bolder !important;
+  }
+
+  .justIndia .india-price {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .justIndia .india-offer {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+  }
 }
