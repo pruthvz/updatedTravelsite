@@ -60,7 +60,7 @@ const data = [
       name: "Portugal",
       desc: "An enchantingly diverse country filled with gorgeous Mediterranean beaches, rolling hills, dramatic mountain scenery and a myriad charming towns, Portugal is brimming with beauty, both in its natural and urban spaces.",
       price: 88,
-      offer: false,
+      offer: true,
 
 
 
@@ -85,6 +85,7 @@ const data = [
       price: 390 ,
       offer: true,
     },
+
     
     
   ];

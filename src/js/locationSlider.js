@@ -12,7 +12,7 @@ const locationData = [
     {
       id: 2,
       pic:
-        "https://images.unsplash.com/photo-1533950010229-7cbbe2f136d2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+        "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=714&q=80",
       name: "Mumbai",
       desc: "Mumbai is the commercial capital of India. It is also known as the city that never sleeps. Mumbai is the perfect blend of culture, customs and lifestyles. Mumbai is India’s most cosmopolitan city, its financial powerhouse and the nerve center of India’s fashion industry.",
       price: 390,
@@ -23,7 +23,7 @@ const locationData = [
     {
       id: 3,
       pic:
-        "https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+        "https://images.unsplash.com/photo-1533656274249-01a343657cea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=701&q=80",
       name: "Rajkot",
       desc: "Rajkot is the 35th-largest metropolitan area in India, with a population of more than 1.8 million as of 2018. Rajkot is the second-cleanest city of India.",
       price: 415,
@@ -85,7 +85,7 @@ const locationData = [
       price: 390 ,
       offer: true,
     },
-    
+
     
   ];
 
