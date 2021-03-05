@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+.destInfo .container {
+  position: relative;
+  top: -80px;
+  padding: 50px;
+  background: white;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.destInfo .container .row .row .col-lg-4 img:hover {
+  opacity: 0.8;
+}
+
+.destInfo .getintouch {
+  font-family: "Poppins", sans-serif !important;
+  color: white;
+  padding: 30px;
+}
+
+.destInfo .container .row .row img:hover {
+  opacity: 0.8;
+}

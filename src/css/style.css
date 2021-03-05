@@ -647,6 +647,8 @@ html {
 /* BLOGS */
 .readBlogs {
   background: #4db6acdc;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .readBlogs .container .columns h4 {
   font-size: 22px;
@@ -666,4 +668,21 @@ html {
 .readBlogs .container .columns .blogBtn a:hover {
   background: #38827bdc !important;
   color: #fff;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 30px !important;
+  padding: 25px !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
 }

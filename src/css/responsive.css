@@ -89,4 +89,12 @@
     font-family: "Poppins", sans-serif;
     padding: 5px;
   }
+
+  .dropdown-menu {
+    position: absolute;
+    left: 0px !important;
+    padding: 25px !important;
+    outline: none !important;
+    border: none !important;
+  }
 }

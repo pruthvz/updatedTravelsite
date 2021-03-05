@@ -2,88 +2,82 @@ const locationData = [
     {
       id: 1,
       pic:
-        "./assets/images/test.jpg",
+        "https://images.unsplash.com/photo-1571903300545-c165be5669f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
       name: "Ahmedabad",
-      desc: "One of the largest city and former capital of Gujarat, Ahmedabad is also known as Amdavad. It is situated on the banks of Sabarmati river, mostly known for its tourist attractions. It is famous for its cotton textiles, street food places, diamond cutting and much more.",
       price: 423,
       offer: false,
+      page: './destination/ahmedabad.html'
 
     },
     {
       id: 2,
       pic:
-        "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=714&q=80",
+        "https://images.unsplash.com/photo-1594146032116-80033545b0b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
       name: "Mumbai",
-      desc: "Mumbai is the commercial capital of India. It is also known as the city that never sleeps. Mumbai is the perfect blend of culture, customs and lifestyles. Mumbai is India’s most cosmopolitan city, its financial powerhouse and the nerve center of India’s fashion industry.",
       price: 390,
       offer: "true",
-
+      page: './destination/mumbai.html'
  
     },
     {
       id: 3,
       pic:
-        "https://images.unsplash.com/photo-1533656274249-01a343657cea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=701&q=80",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/High_street_-_150_ft_Ring_road_Rajkot.jpg/1920px-High_street_-_150_ft_Ring_road_Rajkot.jpg",
       name: "Rajkot",
-      desc: "Rajkot is the 35th-largest metropolitan area in India, with a population of more than 1.8 million as of 2018. Rajkot is the second-cleanest city of India.",
       price: 415,
       offer: false,
-
+      page: './destination/rajkot.html'
      
     },
     {
       id: 4,
       pic:
-        "https://static.toiimg.com/photo/78805433.cms",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GOA_Colva_Beach_-_panoramio.jpg/1280px-GOA_Colva_Beach_-_panoramio.jpg",
       name: "Goa",
-      desc: "Goa -- Silver sands, sparkling blue waters, the sky mirroring the sea below, white churches resting against green paddy fields and coconut trees lining the coastal streets. ",
       price: 419,
       offer: false,
-
+      page: './destination/goa.html'
     
     },
     {
       id: 5,
       pic:
-        "https://images.unsplash.com/photo-1501952476817-d7ae22e8ee4e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80",
-      name: "Germany",
-      desc: "With an interesting and rich history narrated by the old-fashion and colorful architecture, castles, palaces, cathedrals and monuments themselves, its landscapes, mountains and forests, delicious food and beer, Germany remains one of the top destinations in the world for travelers.",
-      price: 298,
+        "https://static.toiimg.com/photo/71775173.cms",
+      name: "Kochi",
+      price: 379,
       offer: false,
-
+      page: './features.html'
     
     },
     {
       id: 6,
       pic:
-        "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      name: "Portugal",
-      desc: "An enchantingly diverse country filled with gorgeous Mediterranean beaches, rolling hills, dramatic mountain scenery and a myriad charming towns, Portugal is brimming with beauty, both in its natural and urban spaces.",
-      price: 88,
+        "https://cdn.pixabay.com/photo/2018/08/21/10/00/architectural-3620857_1280.jpg",
+      name: "Vadodara",
+      price: 462,
       offer: false,
-
-
+      page: './features.html'
 
     },
     {
       id: 7,
       pic:
-        "https://images.unsplash.com/photo-1470470558828-e00ad9dbbc13?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      name: "France",
-      desc: "France is one of the world's leading tourist destinations. If you have all the time in the world, you may not need to plan your holiday in France, you can just wander along at your own leisurely pace, and it will be a wonderful and varied experience.",
-      price: 320,
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Patna_Montage_2014.jpg/800px-Patna_Montage_2014.jpg",
+      name: "Patna",
+      price: 463,
       offer: false,
-
+      page: './features.html'
 
     },
     {
       id: 8,
       pic:
-        "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZG9ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      name: "London",
-      desc: "London Heathrow, Heathrow Airport in London is the UK's largest and busiest airport as well as being the busiest airport in Europe and the seventh busiest in the world based on passenger traffic.",
-      price: 390 ,
+        "https://images.unsplash.com/photo-1470075446540-4391a96ec621?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+      name: "Hyderabad",
+      price: 371 ,
       offer: true,
+      page: './features.html'
+
     },
 
     
@@ -130,7 +124,7 @@ const newLocations = (loc) => {
     price.setAttribute('class', 'price')
 
     icon.setAttribute('class', 'locationIcon fal fa-map-marker-alt')
-
+    city.setAttribute('href', loc.page)
     
     // adding to the html file
     // p.innerHTML = loc.desc
