@@ -100,7 +100,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="./worldwide.html">Worldwide</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -112,15 +112,17 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown link
+                About
               </a>
               <div
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="./aboutus.html ">About us</a>
+                <a class="dropdown-item" href="./what-we-offer.html"
+                  >What We Offer</a
+                >
+                <a class="dropdown-item" href="#">Get in Touch</a>
               </div>
             </li>
           </ul>
@@ -565,27 +567,28 @@
       </div>
     </section>
 
+    <!-- <div class="grey lighten-4 p-3 pt-5 pb-5">
+      <h1
+        class="text-center mb-0"
+        style="
+          font-family: 'Poppins', sans-serif;
+          font-size: 40px;
+          font-weight: 600;
+        "
+      >
+        Customer Reviews
+      </h1>
+    </div> -->
     <section class="testimonial">
       <div
-        class="imgCover text-center"
+        class="customerImgCover text-center"
         style="
           background-image: url('https://images.unsplash.com/photo-1502252430442-aac78f397426?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80');
           height: auto;
-          padding-top: 40px;
-          padding-bottom: 40px;
         "
       >
-        <div class="text-center text-white">
-          <div class="d-flex justify-content-center align-items-top mb-5">
-            <div class="customerInfo">
-              <h4 class="mb-1">Our happy</h4>
-              <h1 class="mb-2" style="font-size: 75px">Customers</h1>
-            </div>
-            <!-- card slider here -->
-          </div>
-        </div>
-
         <!-- Swiper -->
+
         <div class="swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -608,7 +611,7 @@
                     <div class="imgBox">
                       <img
                         src="./assets/images/test.jpg"
-                        style="height: 15rem; overflow: hidden"
+                        style="height: 5rem; overflow: hidden"
                         alt=""
                       />
                     </div>
@@ -638,7 +641,7 @@
                     <div class="imgBox">
                       <img
                         src="./assets/images/test.jpg"
-                        style="height: 15rem; overflow: hidden"
+                        style="height: 5rem; overflow: hidden"
                         alt=""
                       />
                     </div>
@@ -668,7 +671,7 @@
                     <div class="imgBox">
                       <img
                         src="./assets/images/test.jpg"
-                        style="height: 15rem; overflow: hidden"
+                        style="height: 5rem; overflow: hidden"
                         alt=""
                       />
                     </div>
@@ -680,20 +683,6 @@
           </div>
           <!-- Add Pagination -->
           <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="readBlogs">
-      <div class="container pt-lg-3 pb-lg-3">
-        <div class="columns">
-          <h4 class="text-white">
-            Visit our blogs to get our recent news on travel.
-          </h4>
-
-          <div class="blogBtn center-text">
-            <a href="#" class="btn btn-white">Visit Blogs</a>
-          </div>
         </div>
       </div>
     </section>
@@ -746,8 +735,9 @@
               style="width: 60px"
             />
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              We are a small group of individuals at Diu Travels LTD who work
+              tirelessly to provide our clients with the best travel experience.
+              Our highest priority is the happiness of the client.
             </p>
           </div>
           <!-- Grid column -->
@@ -885,6 +875,10 @@
           slideShadows: true,
         },
         loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
         pagination: {
           el: ".swiper-pagination",
         },

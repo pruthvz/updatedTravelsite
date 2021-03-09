@@ -6,10 +6,6 @@ THINGS TO INCLUDE FOR SURE!
 =================================================
 
 
-DESTINATIONS TO ADD STILL 
-- JAIPUR
-- KOLKATA
-- BANGALORE
 
 
 
