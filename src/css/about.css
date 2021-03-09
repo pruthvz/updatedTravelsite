@@ -2,3 +2,35 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+/* GET IN TOUCH STYLING HERE */
+.section {
+  padding: 200px;
+}
+.shadow,
+.subscription-wrapper {
+  box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important;
+}
+
+.text-dark {
+  color: #242f3e !important;
+}
+
+.icon-primary {
+  color: #062caf;
+}
+
+/* MAP */
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

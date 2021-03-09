@@ -7,6 +7,6 @@ THINGS TO INCLUDE FOR SURE!
 
 
 
-
-
-ANOTHER PAGE FOR WORLD WIDE TRAVELS
+=================================================
+REWRITING WEBSITE TEXT
+=================================================

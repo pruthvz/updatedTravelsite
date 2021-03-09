@@ -3,12 +3,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Delhi | Diu Travels LTD</title>
+    <title>Blogs | Diu Travels LTD</title>
     <!-- my stylings -->
-    <link rel="stylesheet" href="../src/css/style.css" />
-    <link rel="stylesheet" href="../src/css/destination.css" />
-    <link rel="stylesheet" href="../src/css/features.css" />
-    <link rel="stylesheet" href="../src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/blogs.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
     <!-- PRO/FREE FONTAWESOME -->
     <!-- ===========Font awesome icons =============== -->
     <link
@@ -35,6 +34,24 @@
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
       rel="stylesheet"
+    />
+
+    <!-- SLICK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
   </head>
   <body>
@@ -73,18 +90,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html"
+              <a class="nav-link" href="/"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link isActive" href="../features.html"
-                >Destination</a
-              >
+              <a class="nav-link" href="./features.html">Destination</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="../worldwide.html">Worldwide</a>
+              <a class="nav-link" href="./worldwide.html">Worldwide</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -102,92 +117,75 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="../aboutus.html ">About us</a>
-                <a class="dropdown-item" href="../what-we-offer.html"
+                <a class="dropdown-item" href="./aboutus.html ">About us</a>
+                <a class="dropdown-item" href="./what-we-offer.html"
                   >What We Offer</a
                 >
-                <a class="dropdown-item" href="../get-in-touch.html"
+                <a class="dropdown-item" href="./get-in-touch.html"
                   >Get in Touch</a
                 >
               </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="covid-19.html">Covid-19</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <div
-      class="imgCover text-center"
-      style="
-        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Delhi_aerial_photo_04-2016_img11.jpg/1280px-Delhi_aerial_photo_04-2016_img11.jpg');
-        height: 550px;
-      "
-    >
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.2)">
-        <div class="d-flex justify-content-center align-items-center h-100">
-          <div class="coverInfo text-white">
-            <h4 class="mb-1">Destinations</h4>
-            <h1 class="mb-3 text-center" style="font-size: 95px">Delhi</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="destInfo">
-      <div class="container">
-        <div class="col-md-12">
-          <h3 class="mb-2">Delhi</h3>
-          <p class="mb-3">
-            Delhi, city and national capital territory, north-central India. The
-            city of Delhi actually consists of two components: Old Delhi, in the
-            north, the historic city; and New Delhi, in the south, since 1947
-            the capital of India, built in the first part of the 20th century as
-            the capital of British India.
-          </p>
-
-          <div class="row">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-xs-6">
-                <img
-                  class="img-fluid pb-3"
-                  src="https://images.unsplash.com/photo-1592193081050-b3aa4284a7b0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80"
-                  alt="Delhi Image"
-                />
-              </div>
-              <div class="col-lg-6 col-md-6 col-xs-6">
-                <img
-                  class="img-fluid"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/1280px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg"
-                  alt="Delhi Image"
-                />
-              </div>
-              <div class="col-lg-6 col-md-6 col-xs-6">
-                <img
-                  class="img-fluid"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Delhi_India_Government.jpg/1280px-Delhi_India_Government.jpg"
-                  alt="Delhi Image"
-                />
-              </div>
-              <div class="col-lg-6 col-md-6 col-xs-6 p-2">
-                <img
-                  class="img-fluid"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Skyline_at_Rajiv_Chowk.JPG/1920px-Skyline_at_Rajiv_Chowk.JPG"
-                  alt="Delhi Image"
-                />
-              </div>
+    <section class="videoHeader">
+      <div
+        class="imgCover text-center"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1584529847623-a796281d8300?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80');
+          height: 550px;
+        "
+      >
+        <div class="mask" style="background: rgba(0, 0, 0, 0.4)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="coverInfo text-white">
+              <h1 class="mb-3" style="font-size: 60px">
+                Latest Coronavirus Updates
+              </h1>
+              <p class="mb-3 text-center">Stay safe, and wear a mask.</p>
             </div>
           </div>
         </div>
-        <br />
-      </div>
-      <div class="getintouch teal lighten-1">
-        <h2>Get In Touch With Us</h2>
-        <span>Book your holiday to Delhi</span>
-        <p>Call us now +44 7951814726</p>
       </div>
     </section>
 
-    <!-- Footer -->
+    <section class="travelNews pb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Travel News</h1>
+            <ul>
+              <li>
+                <a
+                  href="https://www.gov.uk/guidance/travel-advice-novel-coronavirus"
+                  >Travel advice: coronavirus (COVID-19)</a
+                >
+              </li>
+              <li>
+                <a href="https://www.gov.uk/foreign-travel-advice"
+                  >Foreign travel advice</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <iframe
+        src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map"
+        width="100%"
+        height="600px"
+      ></iframe>
+    </section>
+
     <footer class="page-footer font-small unique-color-dark">
       <div style="background-color: #4aaea4">
         <div class="container">
@@ -278,16 +276,16 @@
               style="width: 60px"
             />
             <p>
-              <a href="../index.html">Home</a>
+              <a href="./index.html">Home</a>
             </p>
             <p>
-              <a href="../features.html">Destinations</a>
+              <a href="./features.html">Destinations</a>
             </p>
             <p>
-              <a href="../blogs.html">Blogs</a>
+              <a href="./blogs.html">Blogs</a>
             </p>
             <p>
-              <a href="../get-in-touch.html">Contact us</a>
+              <a href="./get-in-touch.html">Contact us</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -323,13 +321,8 @@
       </div>
       <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-
-    <!-- SCROLL TO TOP -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
-
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="./src/js/default.js"></script>
-    <script src="./src/js/scrollTop.js"></script>
 
     <!-- JQuery -->
     <script
