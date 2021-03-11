@@ -1,12 +1,7 @@
-=================================================
-THINGS TO INCLUDE FOR SURE!
+@2021 COPYRIGHT ALL RIGHTS RESERVED BY DIUTRAVELS.COM
 
-- PRICING PAGE TO ALLOW THE USER TO KNOW THE PRICE.
-- SERVICES SIMPLE STYLE
-=================================================
+We are a small group of individuals at Diu Travels LTD who work tirelessly to provide our clients with the best travel experience. Our highest priority is the happiness of the client.
 
 
 
-=================================================
-REWRITING WEBSITE TEXT
-=================================================
+

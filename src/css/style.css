@@ -697,3 +697,10 @@ html {
   /*Without this, clicking will make it sticky*/
   pointer-events: none;
 }
+
+/* LOGO STYLES HERE */
+.navbar .navbar-brand img {
+  height: 50px;
+  padding: 2px;
+}
+/* LOGO STYLES HERE */
